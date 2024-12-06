@@ -9,7 +9,7 @@ function organizeShoes(shoes) {
   for( let shoe of shoes ){
     const {type, size} = shoe;
     const sizeS = `${size}`; 
-    const talle = contador[sizeS] ?? { "I": 0, "R": 0};
+    const talle = contador[sizeS] ?? { "I": 0, "R": 0 };
     talle[type] += 1;
 
     const par = type === "R" ? "I" : "R";
