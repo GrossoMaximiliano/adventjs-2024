@@ -1,6 +1,6 @@
 function createXmasTree(height, ornament) {
   let arbol = [];
-  let vacioXlado = height - 1;
+  const vacioXlado = height - 1;
 
   for(let i = 0; i < height; i++){
     const lado = ornament.repeat(i);
